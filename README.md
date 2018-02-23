@@ -16,7 +16,7 @@ might be useful but email is probably the best bet.
 I can do some programming! Hopefully you're here because you want me to do some
 programming for you. I'm also currently studying as a computer engineer, so once
 that's out of the way I'll be qualified to make the bits that you can program on
-and *_also_ program those, so that's cool.
+and _also_ program those, so that's cool.
 
 ## Why is this in latex?
 This is in really, really simple latex. Simple enough that you could read it in
