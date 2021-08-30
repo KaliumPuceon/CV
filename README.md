@@ -1,22 +1,27 @@
 # My CV
 Hi, this is my CV and associated documents pack. It's to be considered up to
-date as of the most recent commit, unless I leave a note saying it's not for
-some reason.
+date as of the most recent commit, unless I leave a note here saying it's not
+for some reason.
 
-## Transcript
+## Transcript and Certificate
+`certificate.pdf` is my certificate of qualification as an engineer, and
 `transcript.pdf` is my unofficial academic transcript from UCT, which should be
-everything you need to see how well (or poorly) I'm doing at my classes.
+everything you need to convince yourself that I'm a real engineer, and see how
+well (or poorly) I did in my classes.
 
 ## Contacting me
 There's several email addresses associated with this GitHub you could contact me
 at, and the two most official looking ones are on the CV itself.
 
 ## What I can do for you: A summary
-I'm currently studying as a computer engineer, so once that's out of the way
-I'll be qualified to make the bits that you can program on and _also_ program
-those, so that's neat. I can also do some programming! Hopefully you're here
-because you want me to do some programming for you. I have a penchant for Linux
-and Linux Admin, in particular working with cluster computers.
+I'm currently working in Embedded System Development, which includes writing
+edge software for an embedded Linux system and maintaining and upgrading that
+embedded Linux image. I also come up with hardware solutions for sensing and
+control problems. I'm studying towards a Masters degree in Nanoelectronics at
+the University of Johannesburg, part-time, with a research focus on graphene
+manufacturing techniques for biosesnsors.I have a penchant for Linux and Linux
+Admin, in particular working with high performance cluster computers, but I
+could also work with a desktop Linux fleet.
 
 ## Why is this in latex?
 This is in really, really simple latex. Simple enough that you could read it in
