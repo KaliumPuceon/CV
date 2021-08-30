@@ -6,6 +6,8 @@
 \usepackage{fullpage}
 \usepackage{tgpagella}
 \usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{enumitem}
 \author{Jehan Singh}
 \title{Curriculum Vitae}
 
@@ -42,7 +44,7 @@ and with high performance computing clusters. I can effectively combine these sk
 problems from multiple directions.
 
 \section*{Education}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\setlength\itemsep{0.02em}
     \item 2021-present: Studying part-time towards a Masters of Science in Engineering in Micro and Nanoelectronics at the University of Johannesburg, with a research focus on graphene manufacturing processes for nanobiosensors.
     \item 2016-2020: Graduated with a Bachelor of Science in Engineering in Electrical and Computer Engineering from the University of Cape Town
@@ -52,66 +54,65 @@ problems from multiple directions.
 \section*{Work Experience and Notable Projects}
 
 \subsection*{Embedded Systems Engineer at Enspara: 2020-present}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\setlength\itemsep{0.02em}
     \item Developed monitoring and control solutions for reducing the energy consumption of industrial and commercial equipment
-    \item Maintained and upgraded existing hardware and software including a custom Linux image used on monitoring hardware
+    \item Maintained and upgraded existing hardware and software including a custom embedded Linux image used on monitoring hardware
     \item Wrote documentation and manuals for hardware installations and software deployment
-    \item Tools used: nodejs, node-red, python, bitbake build system, git.
+    \item Tools used: nodejs, node-red, python, bash, bitbake build system, git, AWS Things, Siemens PLC.
 \end{itemize}
 
 \subsection*{Winning Student Cluster Competition ISC 2019}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\setlength\itemsep{0.02em}
-    \item Competed in and won the ISC Student Cluster Competition 2019 along with my team on behalf of the Centre for Scientific and Industrial Research
+    \item Competed in and won the ISC Student Cluster Competition 2019 as part of a team on behalf of the Centre for Scientific and Industrial Research
     \item Placed first out of 14 teams: \href{https://www.chpc.ac.za/index.php/news2/241-south-africa-wins-international-student-cluster-competition-for-the-fourth-time}{News Article}
-    \item Designed, prepared, optimized and ran benchmarks and applications on a six-node, 336 core cluster.
+    \item Designed, prepared, optimized and ran benchmarks and applications on a six-node, 336 core cluster including.
+    \item Built and optimized libraries for OpenMPI, HDF5, FFTW, PARMETIS and GSL using open source compilers and Intel Parallel Studio.
+    \item Primary focus was on optimizing the SwiftSim Astrodynamics package and assisted in optimization for HPL, HPCC, HPCG, and OpenFOAM.
+    \item Wrote scripts in bash and python to monitor and control the performance of the cluster. 
     \item Reference: David Macleod \href{mailto:dmacleod@csir.co.za}{dmacleod@csir.co.za}
 \end{itemize}
 
 \subsection*{Penguin Data Collection Project 2018-2019}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\setlength\itemsep{0.02em}
-    \item Designed, programmed and integrated a Raspberry Pi based embedded system for collecting images of penguins on St. Croix Island in May 2019
-    \item Developed software which must be robust enough to run unchecked for up to six months and recover from failures
-    \item Integrated and adapted system to support and fit with other research systems
+    \item Designed, programmed and integrated a Raspberry Pi based embedded system for collecting images and weight readings of endangered penguins on St. Croix Island in May 2019
+    \item Developed python software which must be robust enough to run unchecked for up to six months and recover from failures.
+    \item Integrated and adapted system hardware and software to survive harsh conditions and support other research goals.
     \item This was my undergraduate final project, my report and poster can be found \href{https://awful.cloud/upl/thesis.pdf}{here} and \href{https://awful.cloud/upl/poster.pdf}{here}.
     \item Reference: Justin Pead: \href{mailto:justin.pead@uct.ac.za}{justin.pead@uct.ac.za}
 \end{itemize}
 
 \subsection*{Undergraduate Vacation Work}
-\subsubsection*{\textbf{Software intern at ABSA Aliens, 2018}}
+\begin{spacing}{1.1}
+\textbf{Software intern at ABSA Aliens, 2018}\\
 Two-week placement, where I developed an Android app alongside two other students implementing an
 infrastructure-free local positioning system using existing wi-fi networks. 
-
-\subsubsection*{\textbf{Security intern at MWR Information Security, 2017}}
+\\\\
+\textbf{Security intern at MWR Information Security, 2017}\\
 Two-week training in webapp security, penetration testing with industry standard rools, and security
-best practices, including formal reporting.
-
-\subsubsection*{\textbf{Software intern at Journeyapps Stellenbosch, 2017}}
+best practices, including incident reporting skills.
+\\\\
+\textbf{Software intern at Journeyapps Stellenbosch, 2017}\\
 Three-week internship where I implemented a NodeJS API server which converted existing REST API's
-into GraphQL API's.
+into GraphQL API's according to an XML API schema.
+\end{spacing}
 
 \section*{Skills}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\setlength\itemsep{0.02em}
-    \item Experience using the programming languages and tools Python (including scientific computing packages), NodeJS, Lua, Pascal, and Linux Shell Scripting tools.
-    \item Elementary or Basic knowledge of C, Perl, Java, including some Android development, HTML, CSS, and SQL
     \item Experience with Linux system administration and environment management across a variety of distributions and environments, including Linux cluster environments and web servers
-    \item Competent user of both Microsoft Office packages and LaTeX document creation tools
-    \item Significant experience with GNU/Linux Operating Systems and a long-time user of the Windows Operating System
-    \item Experience with electronic design including practical lab testing, soldering and wiring as well as elementary skill with VLSI layout, PCB layout, and SPICE simulation
+    \item Experience using the programming languages and tools Python (including scientific computing packages), NodeJS, Lua, Pascal, and Linux Shell Scripting tools.
+    \item Experience operating, monitoring and tuning massively parallely HPC computing environments
+    \item Elementary skill with Ansible, SLURM, Grafana, Ganglia, and Lmod automation and management tools
+    \item Elementary or Basic knowledge of C, Perl, Java, including some Android development, HTML, CSS, and SQL
+    \item Competent user of both Microsoft Office programs and LaTeX document creation tools
+    \item Significant experience with GNU/Linux Operating Systems on server, desktop and embedded environments
+    \item Experience with electronic design including practical lab testing, soldering and wiring
+    \item Elementary skill with VLSI layout, PCB layout, and SPICE simulation
     \item Capable of quickly learning about new tools or systems as needed
-    \item Skill at working with technical equipment or documents
-\end{itemize}
-
-\section*{Additional Achievements}
-\begin{itemize}
-	\setlength\itemsep{0.02em}
-    \item Led the team that placed 1st in the 2018 South African Student Cluster Competition
-    \item Placed fourth nationwide in the 2015 SAIP Physics Olympiad
-    \item Part of the team that placed 1st nationwide and 27th worldwide at the World Robotics Olympiad 2013, Jakarta.
-    \item Highest scoring student at World Scholar's Cup: South African round, 2015
+    \item Skill at working with technical equipment or documents and software manuals
 \end{itemize}
 
 \end{document}
